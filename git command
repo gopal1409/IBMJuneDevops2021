@@ -15,3 +15,6 @@ Intialize our first repo
    18  rm -rf .git
    19  git status
 
+How to configura global varaibel in git
+ 23  git config --global user.name "gopal das"
+   24  git config --global user.email "gopal1409@gmail.com"
