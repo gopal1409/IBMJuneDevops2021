@@ -5,4 +5,13 @@ How to verify the git repository
     8  touch calcy.py
     9  touch auth
    10  git status
+Intialize our first repo
+12  git init
+   13  git status
+   14  ls -la
+   15  cd .git
+   16  ls
+   17  cd ..
+   18  rm -rf .git
+   19  git status
 
