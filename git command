@@ -72,3 +72,10 @@ git delete branched
    94  git checkout calcy.py
    95  git status
 
+to put a file from staging area back to working directory
+97  touch newfile
+   98  git status
+   99  git add  newfile
+  100  git status
+  101  git reset
+  102  git status
