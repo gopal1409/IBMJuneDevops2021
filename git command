@@ -60,3 +60,9 @@ Branch Merging
    77  git merge multiplication
    78  cat calcy.py
    79  git branch
+git delete branched
+ 83  git branch -a
+   84  git branch -d multiplication
+   85  git branch
+   86  git branch -a
+   87  git push -u origin --delete multiplication
