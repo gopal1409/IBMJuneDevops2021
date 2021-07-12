@@ -80,3 +80,30 @@ to put a file from staging area back to working directory
   101  git reset
   102  git status
 113  git commit --amend
+
+Git conflict
+116  cd ..
+  117  mkdir conflict
+  118  cd conflict/
+  119  git init
+  120  cat README.md
+  121  echo "This is an README file" > README.md
+  122  cat README.md
+  123  git add .
+  124  git commit -m "README file added"
+  125  git log
+  126  git checkout -b "branch_to_create_merge_conflict"
+  127  git branch
+  128  vi README.md
+  129  git add README.md
+  130  git commit -m "i made edit on the README branch"
+  131  git checkout master
+  132  vi README.md
+  133  git add .
+  134  git commit -m "edit made in readme on master branch
+"
+  135  git branch
+
+  137  git merge branch_to_create_merge_conflict
+  138  git status
+
