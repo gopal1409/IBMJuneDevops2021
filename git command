@@ -66,3 +66,9 @@ git delete branched
    85  git branch
    86  git branch -a
    87  git push -u origin --delete multiplication
+   
+   remove befor commit
+   93  cat calcy.py
+   94  git checkout calcy.py
+   95  git status
+
