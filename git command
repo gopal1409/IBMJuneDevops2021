@@ -27,3 +27,10 @@ Lets create our first version
    32  git log
    33  history
    34  git status
+Second commit and push to remote repo
+ 42  vi calcy.py
+   43  git status
+   44  git add .
+   45  git commit -m "we are trying to create a calcy program"
+   46  git log
+   47  git push -u origin master
