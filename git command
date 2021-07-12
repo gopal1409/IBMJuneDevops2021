@@ -51,3 +51,6 @@ Branching in Git
    66  git branch master
    67  git checkout master
    68  cat calcy.py
+Branch Pushing
+ 70  git branch
+   71  git push -u origin multiplication
