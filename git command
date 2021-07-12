@@ -79,3 +79,4 @@ to put a file from staging area back to working directory
   100  git status
   101  git reset
   102  git status
+113  git commit --amend
