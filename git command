@@ -54,3 +54,9 @@ Branching in Git
 Branch Pushing
  70  git branch
    71  git push -u origin multiplication
+Branch Merging
+75  git branch
+   76  cat calcy.py
+   77  git merge multiplication
+   78  cat calcy.py
+   79  git branch
