@@ -34,3 +34,20 @@ Second commit and push to remote repo
    45  git commit -m "we are trying to create a calcy program"
    46  git log
    47  git push -u origin master
+Branching in Git
+ 53  git branch multiplication
+   54  git branch
+   55  git checkout multiplication
+   56  git branch
+   57  ls
+   58  vi calcy.py
+   59  cat calcy.py
+   60  git add .
+   61  git commit -m "New feature multiplication added"
+   62  git status
+   63  git log
+   64  git branch
+   65  cat calcy.py
+   66  git branch master
+   67  git checkout master
+   68  cat calcy.py
