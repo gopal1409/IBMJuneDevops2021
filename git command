@@ -1,1 +1,8 @@
+How to verify the git repository
+5  mkdir project
+    6  cd project/
+    7  touch DS_Store
+    8  touch calcy.py
+    9  touch auth
+   10  git status
 
