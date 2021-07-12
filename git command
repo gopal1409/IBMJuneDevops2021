@@ -18,3 +18,12 @@ Intialize our first repo
 How to configura global varaibel in git
  23  git config --global user.name "gopal das"
    24  git config --global user.email "gopal1409@gmail.com"
+
+Lets create our first version
+ 28  git init
+   29  git add calcy.py
+   30  git commit -m "my first program"
+
+   32  git log
+   33  history
+   34  git status
