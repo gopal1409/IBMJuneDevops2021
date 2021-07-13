@@ -7,3 +7,9 @@
   211  ansible worker -m command -a "cat /proc/meminfo"
   213  ansible worker -m shell -a "cat /etc/passwd"
   214  history
+  
+  ansible file module
+   215  ansible all -m file -a "path=/tmp/x state=dir mode=0755"
+  216  ansible all -m file -a "path=/tmp/x state=directory mode=0755"
+  217  ansible all -m file -a "path=/tmp/x state=absent mode=0755"
+
