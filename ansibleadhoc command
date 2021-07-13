@@ -12,4 +12,13 @@
    215  ansible all -m file -a "path=/tmp/x state=dir mode=0755"
   216  ansible all -m file -a "path=/tmp/x state=directory mode=0755"
   217  ansible all -m file -a "path=/tmp/x state=absent mode=0755"
+  
+  ansible file module
+  220  ansible all -m file -a "path=/tmp/y state=directory mode=0755"
+  221  ssh root@worker
+  222  ansible worker -m group -a "name=weblogic state=present"
+  223  add worker -m user -a "name=weblogic group=weblogic createhome=yes"
+  224  ansible worker -m user -a "name=weblogic group=weblogic createhome=yes"
+  225  ansible worker -m file -a "path=/tmp/y group=weblogic owner=weblogic"
+  226  ssh root@worker
 
