@@ -22,3 +22,10 @@
   225  ansible worker -m file -a "path=/tmp/y group=weblogic owner=weblogic"
   226  ssh root@worker
 
+How to install a package
+ 236  ansible worker -m apt -a "name=apache2 state=present"
+  237  ansible worker -m service -a "name=apache2 state=started enabled=yes"
+  
+  How to stop a service and uninstall the package
+   240  ansible worker -m apt -a "name=apache2 state=absent"
+
