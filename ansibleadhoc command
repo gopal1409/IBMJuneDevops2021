@@ -1,0 +1,9 @@
+205  ansible -m command -a uptime
+  206  ansible worker -m command -a uptime
+  207  ansible worker -m shell -a uptime
+
+  209  ansible worker -m command "free -m"
+  210  ansible worker -m command -a "free -m"
+  211  ansible worker -m command -a "cat /proc/meminfo"
+  213  ansible worker -m shell -a "cat /etc/passwd"
+  214  history
