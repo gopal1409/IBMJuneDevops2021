@@ -1,0 +1,5 @@
+ 164  hostnamectl set-hostname --static ansiblemaster
+  165  apt-add-repository ppa:ansible/ansible
+  166  apt update
+  167  apt install ansible
+  168  ansible --version
