@@ -15,3 +15,9 @@ EOF
   100  sudo apt-get update
   101  sudo apt-get install -y kubelet kubeadm kubectl
   102  sudo apt-mark hold kubelet kubeadm kubectl
+
+add cni Plugin
+106  kubectl get nodes
+  107  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+  108  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/k8s-manifests/kube-flannel-rbac.yml
+106  kubectl get nodes
