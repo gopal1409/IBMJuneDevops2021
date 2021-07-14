@@ -1,0 +1,6 @@
+131  kubectl run my-chat-app --image gopal1409/chat:v1
+  132  kubectl get pod
+  133  kubectl describe pod my-chat-app
+  134  kubectl get pod -o wide
+  135  kubectl expose pod my-chat-app --type=NodePort --port=8080 --name=my-chat-service
+  136  kubectl get svc
